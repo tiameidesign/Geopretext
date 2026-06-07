@@ -1,0 +1,27 @@
+.container {
+  padding: 24px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.text-box {
+  border: 1px solid #999;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  line-height: 1.6;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.text-box span {
+  cursor: pointer;
+  margin-right: 6px;
+  display: inline;
+}
+
+.text-box span.selected {
+  color: blue;
+}
